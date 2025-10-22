@@ -1,0 +1,11 @@
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-top: 1px solid var(--border-color);
+  transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.footer p {
+  opacity: 0.7;
+}

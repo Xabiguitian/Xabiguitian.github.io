@@ -1,0 +1,15 @@
+/* /src/App.module.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* AÑADIDO: Aplicamos aquí las variables de color */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding-top: 80px; /* Espacio para la navbar fija */
+}
